@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BlackCoderMotoCrossMadnessApp.Data;
 using BlackCoderMotoCrossMadnessApp.Models;
-using BlackCoderMotoCrossMadnessApp.Motekar;
+using BlackCoderMotoCrossMadnessApp.MotoCross;
 
 namespace BlackCoderMotoCrossMadnessApp.Areas.security.Controllers
 {

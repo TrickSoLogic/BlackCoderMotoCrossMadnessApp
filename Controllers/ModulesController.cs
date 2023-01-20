@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using BlackCoderMotoCrossMadnessApp.Motekar;
+using BlackCoderMotoCrossMadnessApp.MotoCross;
 using BlackCoderMotoCrossMadnessApp.ViewModels;
 
 namespace BlackCoderMotoCrossMadnessApp.Controllers
@@ -30,31 +30,31 @@ namespace BlackCoderMotoCrossMadnessApp.Controllers
             return View(modules);
         }
 
-        [Authorize(Roles = Motekar.Modules.Security)]
+        [Authorize(Roles = MotoCross.Modules.Security)]
         public IActionResult Security()
         {
             return View();
         }
 
-        [Authorize(Roles = Motekar.Modules.CRM)]
+        [Authorize(Roles = MotoCross.Modules.CRM)]
         public IActionResult CRM()
         {
             return View();
         }
 
-        [Authorize(Roles = Motekar.Modules.Inventory)]
+        [Authorize(Roles = MotoCross.Modules.Inventory)]
         public IActionResult Inventory()
         {
             return View();
         }
 
-        [Authorize(Roles = Motekar.Modules.SO)]
+        [Authorize(Roles = MotoCross.Modules.SO)]
         public IActionResult SalesOrder()
         {
             return View();
         }
 
-        [Authorize(Roles = Motekar.Modules.PO)]
+        [Authorize(Roles = MotoCross.Modules.PO)]
         public IActionResult PurchaseOrder()
         {
             return View();

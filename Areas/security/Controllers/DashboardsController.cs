@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using BlackCoderMotoCrossMadnessApp.Motekar;
+using BlackCoderMotoCrossMadnessApp.MotoCross;
 
 namespace BlackCoderMotoCrossMadnessApp.Areas.security.Controllers
 {
