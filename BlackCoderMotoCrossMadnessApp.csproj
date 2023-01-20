@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>BlackCoder</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180318174620_awal.cs" />
+    <Compile Remove="Migrations\20180318174620_awal.Designer.cs" />
+    <Compile Remove="Migrations\20230120195128_init.cs" />
+    <Compile Remove="Migrations\20230120195128_init.Designer.cs" />
+    <Compile Remove="Migrations\20230120200755_init.cs" />
+    <Compile Remove="Migrations\20230120200755_init.Designer.cs" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\crm\Controllers\" />
+    <Folder Include="Areas\crm\Data\" />
+    <Folder Include="Areas\crm\Models\" />
+    <Folder Include="Areas\crm\Views\" />
+    <Folder Include="Areas\inventory\Controllers\" />
+    <Folder Include="Areas\inventory\Data\" />
+    <Folder Include="Areas\inventory\Models\" />
+    <Folder Include="Areas\inventory\Views\" />
+    <Folder Include="Areas\purchaseorder\Controllers\" />
+    <Folder Include="Areas\purchaseorder\Data\" />
+    <Folder Include="Areas\purchaseorder\Models\" />
+    <Folder Include="Areas\purchaseorder\Views\" />
+    <Folder Include="Areas\salesorder\Controllers\" />
+    <Folder Include="Areas\salesorder\Data\" />
+    <Folder Include="Areas\salesorder\Models\" />
+    <Folder Include="Areas\salesorder\Views\" />
+    <Folder Include="Areas\security\Data\" />
+  </ItemGroup>
+
+</Project>
